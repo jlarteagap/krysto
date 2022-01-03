@@ -1,12 +1,5 @@
 import React from 'react'
-import {
-  Footer,
-  Navbar,
-  Services,
-  Transactions,
-  Loader,
-  Welcome
-} from './components'
+import { Footer, Navbar, Services, Transactions, Welcome } from './components'
 const App = () => {
   return (
     <div className="min-h-screen">
@@ -16,7 +9,6 @@ const App = () => {
       </div>
       <Services />
       <Transactions />
-      <Loader />
       <Footer />
     </div>
   )
